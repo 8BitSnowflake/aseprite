@@ -233,6 +233,12 @@ Then:
 `Error: client not configured; see 'gclient config'`.
 Just ignore it.)
 
+Here, you may also have to explicitly add Python to your PATH.
+
+    set PATH=C:\deps\depot_tools\win_tools-2_7_6_bin\python\bin;%PATH%
+
+Afterwards:
+
     cd C:\deps
     git clone -b aseprite-m71 https://github.com/aseprite/skia.git
     cd skia
